@@ -1,0 +1,21 @@
+p {
+	text-align: center;
+	
+	background-color: grey;
+	color: orange;
+	font-size:100%;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+ul {
+	text-align: center;
+	color:blue;
+	background-color: black;
+
+
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
