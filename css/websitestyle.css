@@ -25,15 +25,16 @@ body {
 
 }
   #vid { 
-	 position: relative; 
+	 position: absolute; 
 	top: 115px;
+  left: 350px;
 }
 
 p {
   color: OrangeRed;
   position: relative; 
-  top: 145px;
-  left: 250px;
+  top: 445px;
+  left: 360px;
   font-size: 130%;
   font-family: 'copperplate'
 
@@ -47,21 +48,21 @@ a {
 
 #fb {
     position:absolute;
-    left:615px;
-    top: 450px;
+    left:735px;
+    top: 155px;
 }
 
 #tw {
      position: absolute;
-    left:655px;
-    top:450px;
+    left:775px;
+    top:155px;
 
 }
 
 #maps {
      position: absolute;
-     left: 575px;
-     top: 450px;
+     left: 695px;
+     top: 155px;
      color:black;
 
 }
