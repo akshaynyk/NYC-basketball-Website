@@ -1,0 +1,43 @@
+
+
+#menu {
+     width: 100%;
+     position: absolute;
+     top: 0;
+     color:black;
+     }
+
+body {
+  background-color: black;
+  color:black
+  font: 600 13.5px/17.5px "bankgothic lt bt";
+  border-radius: 0px;
+}
+
+.box {
+  background: OrangeRed;
+  float: left;
+  margin: 1.858736059%;
+  padding: 1px 0;
+  text-align: center;
+  width: 15.615861214%;
+
+}
+  #vid { 
+	 position: relative; 
+	top: 115px;
+}
+
+p {
+  color: OrangeRed;
+  position: relative; 
+  top: 145px;
+  left: 360px;
+  font-family: "bankgothic lt bt";
+}
+
+a {
+    color: #000; /* for browsers that don't support 'inherit' as a color value */
+    color: inherit;
+}
+
