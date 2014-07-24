@@ -41,3 +41,26 @@ a {
     color: inherit;
 }
 
+#fb {
+    position:absolute;
+    left:535px;
+    top: 450px;
+}
+
+#tw {
+     position: absolute;
+    left:585px;
+    top:450px;
+
+}
+
+#maps {
+     position: absolute;
+     left: 485px;
+     top: 450px;
+     color:black;
+
+
+
+}
+
