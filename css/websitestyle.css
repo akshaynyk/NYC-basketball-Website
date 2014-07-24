@@ -47,22 +47,23 @@ a {
 
 #fb {
     position:absolute;
-    left:535px;
+    left:615px;
     top: 450px;
 }
 
 #tw {
      position: absolute;
-    left:585px;
+    left:655px;
     top:450px;
 
 }
 
 #maps {
      position: absolute;
-     left: 485px;
+     left: 575px;
      top: 450px;
      color:black;
 
 }
+
 
