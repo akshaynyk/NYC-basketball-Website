@@ -1,16 +1,16 @@
 
 
-#menu {
+nav {
      width: 100%;
-     position: absolute;
+     position: fixed;
      top: 0;
      color:black;
-     font-family: 'copperplate'
+     font-family: 'copperplate';
      }
 
 body {
   background-color: black;
-  color:black
+  color:black;
   font: 600 13.5px/17.5px;
   border-radius: 0px;
 }
@@ -25,70 +25,54 @@ body {
 
 }
   #vid { 
-   position: absolute; 
-  top: 115px;
-  left: 350px;
+   position: fixed; 
+  top: 15%;
+  left: 28.5%;
 }
 
 p {
   color: OrangeRed;
-  position: relative; 
-  top: 445px;
-  left: 360px;
+  position: fixed; 
+  top: 60%;
+  left:30%;
   font-size: 130%;
   font-family: 'copperplate'
 
 }
 
 a {
-    color: #000; /* for browsers that don't support 'inherit' as a color value */
+    color: #000; 
     color: inherit;
 }
 
-#fb {
-    position:absolute;
-    left:735px;
-    top: 155px;
-}
-
-#tw {
-     position: absolute;
-    left:775px;
-    top:155px;
-}
-
-#maps {
-     position: absolute;
-     left: 695px;
-     top: 155px;
-     color:black;
-
+#icons {
+     position: fixed;
+     bottom: 0;
+     right: 0;
 }
 
 #logo {
-  position:absolute;
-  top: -55%;
-  left: -27% ;
-
+  position:fixed;
+  top:10%;
+}
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) 
-/* Styles */
+@media only screen and (min-width : 320px) {}
+
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
+@media only screen and (min-width : 321px) and (orientation : landscape){
+
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-  body{ background-color: yellow}
+@media only screen and (max-width : 320px) and (orientation : portrait) {
+}
 /* Styles */
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
-
 }
 
 /* iPads (landscape) ----------- */
@@ -107,6 +91,7 @@ body{ background-color: OrangeRed}
 p {color:white;}
 .box {
   background:white;
+
 }
 }
 
@@ -115,6 +100,9 @@ p {color:white;}
 /* Styles */
 }
 
+a:link {
+    text-decoration: none;
+}
 
 
 
