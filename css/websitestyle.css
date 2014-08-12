@@ -8,9 +8,15 @@ nav {
      font-family: 'copperplate';
      }
 
-body {
+
+footer{
+  position:fixed;
+  top:30%;
+} 
+
+body{
   background-color: black;
-  color:black;
+
   font: 600 13.5px/17.5px;
   border-radius: 0px;
 }
@@ -18,24 +24,46 @@ body {
 .box {
   background: OrangeRed;
   float: left;
-  margin: 1.858736059%;
+  margin: 1.258736059%;
   padding: 1px 0;
   text-align: center;
-  width: 15.615861214%;
+  width: 28.615861214%;
 
 }
-  #vid { 
-   position: fixed; 
-  top: 15%;
-  left: 28.5%;
-}
 
-p {
-  color: OrangeRed;
+  #picture { 
   position: fixed; 
-  top: 60%;
-  left:30%;
-  font-size: 130%;
+  top: 15.5%;
+  left: 21.7%;
+
+}
+
+ p {
+   color: OrangeRed;
+  position: fixed; 
+  top: 78%;
+  left:35%;
+  font-size: 153%;
+  font-family: 'copperplate'
+}
+
+#tel p{
+color: white;
+  position: fixed; 
+  top: 93%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+
+#email p{
+color: white;
+  position: fixed; 
+  top: 95%;
+  left:10%;
+  font-size: 85%;
   font-family: 'copperplate'
 
 }
@@ -48,63 +76,115 @@ a {
 #icons {
      position: fixed;
      bottom: 0;
-     right: 0;
+     right: 5%;
 }
 
 #logo {
   position:fixed;
   top:10%;
 }
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) {}
-
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) and (orientation : landscape){
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) and (orientation : portrait) {
-}
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-body{ background-color: OrangeRed}
-p {color:white;}
-.box {
-  background:white;
-}
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
-/* Styles */
-}
 
 a:link {
     text-decoration: none;
 }
 
+.box:hover
+{ 
+background-color:white;
+}
+@media all and (min-width: 1264px) and (max-width: 1580px) {
+body{ background-color: OrangeRed}
+#caption p {color:white;}
+.box {
+  background:white;
+  }
+ul {
+ list-style: none;
+}
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+
+}
+@media all and (min-width: 480px) and (max-width: 960px) { 
+
+#caption p{
+  display: none;
+}
+
+.box {
+  background: grey;
+  float: left;
+  margin: 1.258736059%;
+  padding: 1px 0;
+  text-align: center;
+  width: 80.615861214%;
+}
+.box:hover
+{ 
+background-color:yellow;
+}
+
+#tel p{
+color: grey;
+  position: fixed; 
+  top: 93%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
 
 
+#email p{
+color: grey;
+  position: fixed; 
+  top: 95%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+}
+
+@media all and (max-width: 480px) {
+#vid{
+  display: none;
+}
+#caption p{
+  display: none;
+}
+.box {
+  background: yellow;
+  float: left;
+  margin: 1.258736059%;
+  padding: 1px 0;
+  text-align: center;
+  width: 80.615861214%;
+}
+.box:hover
+{ 
+background-color:yellow;
+}
+
+#tel p{
+color: yellow;
+  position: fixed; 
+  top: 93%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
 
 
+#email p{
+color: yellow;
+  position: fixed; 
+  top: 95%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
 
+}

@@ -1,0 +1,78 @@
+
+body {
+ 
+  font-family: 'copperplate';
+  background-color: white;
+ 
+}
+h1{
+	color: OrangeRed;
+	position:fixed;
+	left:05%;
+	top:00%;
+	font-size: 230%;
+}
+
+h2 {
+	color: OrangeRed;
+	position: fixed;
+	left:05%;
+	top:80%;
+
+}
+}
+li:hover
+{ 
+background-color: OrangeRed;
+}
+ 
+p{
+ 	font-size: 120%;
+	color: white;
+	position: fixed;
+	left: 9%;
+	top: 8%;
+}
+ul{
+  list-style-type: none;
+  position: fixed; 
+  top: 07%;
+  left:05%;
+  font-size: 130%;
+}
+
+a {
+	text-decoration: none;
+}
+
+em {
+	color: black; 
+	font-size: 135%
+}
+
+#ruckerpics p {
+	position: fixed;
+	left: 1%;
+	top: 30%;
+}
+#rules ul{
+	top: 18%;
+	color: OrangeRed;
+}
+li:hover
+{ 
+background-color: OrangeRed;
+}
+
+}
+@media all and (min-width: 1264px) and (max-width: 1580px) {}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+
+@media all and (min-width: 480px) and (max-width: 960px) { }
+
+
+@media all and (max-width: 480px) {}
+
